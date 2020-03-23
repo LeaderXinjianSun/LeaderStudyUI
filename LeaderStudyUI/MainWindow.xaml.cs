@@ -24,5 +24,23 @@ namespace LeaderStudyUI
         {
             InitializeComponent();
         }
+
+        private async void Button_Click(object sender, RoutedEventArgs e)
+        {
+            await Task.Run(()=> {
+
+                System.Threading.Thread.Sleep(5000);
+
+                this.Dispatcher.Invoke(new Action(()=> {
+
+                    MyTextBox1.Text = Guid.NewGuid().ToString();
+
+                }));
+
+
+
+            });
+
+        }
     }
 }
