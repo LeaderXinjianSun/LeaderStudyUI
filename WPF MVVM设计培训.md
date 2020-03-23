@@ -1,0 +1,17 @@
+# WPF MVVM设计培训 #
+- 普通编程的劣势和MVVM设计的优势
+    - 线程访问UI资源报错
+    - 界面和数据解耦
+- 学习视频[《深入浅出WPF》系列高清视频教程 | 讲师：刘铁猛](https://www.bilibili.com/video/av38367210?from=search&seid=7906302643092795739)
+- NuGet安装Prism包
+- MVVM项目构建
+- 绑定
+    - 属性绑定
+    - 数组属性的绑定
+    - 方法绑定、带参数方法绑定
+    - Event绑定 
+- 依赖属性
+    - 用依赖属性实现弹窗 
+- MVVM项目在使用mahapps.metro包后出现报错的处理办法
+- 推荐使用GitHub[史上最简单的 GitHub 教程](https://blog.csdn.net/qq_35246620/article/details/66973794)
+- 实例代码[LeaderStudyUI](https://github.com/LeaderXinjianSun/LeaderStudyUI)
